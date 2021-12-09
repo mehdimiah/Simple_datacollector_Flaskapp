@@ -1,0 +1,107 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container h1 {
+font-family: Arial, sans-serif;
+font-size: 30px;
+color: black;
+margin-top: 30px;
+
+
+
+
+}
+
+.container form {
+
+    margin: 20px;
+ 
+}
+
+.container input {
+
+    width: 350px;
+    height: 15px;
+    font-size: 15px;
+    margin: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 300px;
+    height: 10px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+
+.container input:hover {
+    background-color: #FFCCCC;
+    width: 350px;
+    height: 50px;
+
+}
+
+.container input {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:backwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+}
+
+.container button {
+
+    width: 70px;
+    height: 30px;
+    background-color: wheat;
+    margin: 4px;
+    
+}
+
+.container {
+
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-color:wheat;
+    color:black ;
+    overflow: hidden;
+    text-align:center;
+
+
+}
+
+.container p {
+    
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    margin: 100px;
+
+}
+
+.message {
+
+    font-size: 15px;
+    color: red;
+    font-family: Arial, sans-serif;
+
+}
+.message {
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode:backwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+}
